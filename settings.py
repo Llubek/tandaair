@@ -1,5 +1,5 @@
 bot = {
-    'token': open('BOT_SETTINGS/TOKEN', 'r').readline(), # Bot token
+    'token': open('5309697042:AAGRcYv0QAOUKz08PsnSOMFUuyJQuGQlGLE', # Bot token
     'admin': int(open('BOT_SETTINGS/ADMIN_ID', 'r').readline()), # Admin id
     'allowed_users': list(map(lambda x: int(x.strip('\n')), open('BOT_SETTINGS/USERS_ID', 'r').readlines())) # List ids of allowed users
 }
